@@ -1,0 +1,11 @@
+{
+    "name": "Page_Show_Left_MJ_LT ",
+    "version": "1.0",
+    "description": "大屏幕时网页居中显示，此时你又在聊q，不想来回拖动窗口？ 这个可能适合你哦！ 快捷键crtl+q 居左显示网页",
+    "content_scripts": [{
+        "js": ["set_left.js"],
+        "matches": ["<all_urls>"],
+        "run_at": "document_end"
+    }],
+    "manifest_version": 2
+}
